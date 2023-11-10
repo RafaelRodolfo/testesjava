@@ -1,0 +1,14 @@
+public class CalculadoraAreaTriangulo {
+
+    public static void main(String[] args) {
+        // Definindo as variáveis
+        double base = 15.0;  
+        double altura = 7.5;  
+
+        // Calculando a área do triângulo
+        double area = (base * altura) / 2.0;
+
+        // Imprimindo o resultado
+        System.out.println("A área do triângulo" + base + " e altura " + altura + " é: " + area);
+    }
+}

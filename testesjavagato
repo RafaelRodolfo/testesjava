@@ -1,0 +1,13 @@
+public class Gato {
+    public static void main(String[] args) {
+      Gato raca;
+      raca = new Gato();
+
+        raca = "Persa";
+        raca = "Siames";
+        raca = "Viralata";
+
+      
+        System.out.println("Tipo de gato: " + raca);
+    }
+}
